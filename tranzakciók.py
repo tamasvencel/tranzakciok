@@ -14,7 +14,7 @@ while j < 1000:
       # egy random ember kiválasztása
       v = randrange(n)
       # a kiválasztott ember egy random összeget ad egy másik random embernek
-      r = kezdeti[v]
+      r = kezdeti[v]+1
       k = randrange(r)
       # de csak akkor adhat hogyha azzal nem kerül minuszba
       if kezdeti[v]-k>=0:
